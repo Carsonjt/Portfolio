@@ -8,6 +8,7 @@ import WorkExperience from "@/components/home/workexperience/WorkExperience";
 import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
+  console.log(1 + "1" - 1);
   return (
     <div className="bg-orange-50">
       {/* HEADING BAR */}
