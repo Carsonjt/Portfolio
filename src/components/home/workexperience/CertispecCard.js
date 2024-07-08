@@ -37,7 +37,7 @@ export default function CertispecCard() {
               component="div"
               className="my-1"
             >
-              Lead Software Developer
+              Software Developer
             </Typography>
             <Typography variant="body2" color="text.secondary" className="my-1">
               ◦ Lead the design and creation of Internal employee training

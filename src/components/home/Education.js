@@ -7,7 +7,7 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
 export default function Education() {
   return (
     <div className="border rounded-lg my-3 p-3 border-indigo-400 bg-neutral-50">
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-left">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -23,7 +23,7 @@ export default function Education() {
           />
         </svg>
 
-        <div className="text-xl font-semibold text-center mr-5 tracking-tighter">
+        <div className="text-xl font-semibold mr-5 tracking-tighter">
           Education
         </div>
       </div>

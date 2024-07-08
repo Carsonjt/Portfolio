@@ -5,5 +5,11 @@ import Typography from "@mui/material/Typography";
 import { Button, CardActionArea, CardActions } from "@mui/material";
 
 export default function Technologies() {
-  return <>Technologies</>;
+  return (
+    <>
+      <div className="mt-10 font-semibold  tracking-tight text-4xl text-black">
+        Skills & Technologies
+      </div>
+    </>
+  );
 }

@@ -1,5 +1,10 @@
 "use client";
 
+import linkedin from "../../static/img/linkedin.png";
+import github from "../../static/img/github.png";
+import Image from "next/image";
+import Link from "next/link";
+
 export default function Header() {
   return (
     <div className="mx-auto lg:max-w-screen-2xl py-5 mx-10 text-black-400">
@@ -118,6 +123,28 @@ export default function Header() {
               </svg>
               Contact
             </button>
+          </span>
+          <span class="ml-10 hidden sm:block">
+            <Link href={"https://www.linkedin.com/in/carsonjtodd/"}>
+              <Image
+                src={linkedin} // Path to your image
+                alt="LinkedIn"
+                width={36} // Desired width of the image
+                height={36} // Desired height of the image
+                className="mr-2"
+              />
+            </Link>
+          </span>
+          <span class="ml-3 hidden sm:block">
+            <Link href={"https://github.com/Carsonjt"}>
+              <Image
+                src={github} // Path to your image
+                alt="Github"
+                width={36} // Desired width of the image
+                height={36} // Desired height of the image
+                className="mr-2"
+              />
+            </Link>
           </span>
         </div>
       </div>
