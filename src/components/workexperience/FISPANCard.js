@@ -1,10 +1,10 @@
 import { Card, CardActionArea, CardContent, Typography } from "@mui/material";
-import logo from "../../../static/img/fispan.jpg";
+import logo from "../../static/img/fispan.jpg";
 import Image from "next/image";
 
 export default function CertispecCard() {
   return (
-    <Card className="m-3 border rounded-lg my-3 border-indigo-400 bg-neutral-50">
+    <Card className="m-3 lg:w-1/3 md:w-1/2 sm:w-4/5  border rounded-lg my-3 border-indigo-400 bg-neutral-50">
       <CardActionArea>
         <CardContent>
           <div className="flex justify-between items-center h-10">
