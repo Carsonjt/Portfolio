@@ -8,7 +8,7 @@ import CICDLogo from "../../static/img/skills/CICD.png";
 export default function DevOps() {
   return (
     <>
-      <div>
+      <div className="mx-5">
         <p className="text-center text-xl font-semibold">DevOps Skills</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <div className="px-5">
