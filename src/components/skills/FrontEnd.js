@@ -14,6 +14,12 @@ export default function FrontEnd() {
           <ClickableSkillsIcon src={BasicsLogo} id="basics" name="Basics" />
           <ClickableSkillsIcon src={ReactLogo} id="react" name="React" />
           <ClickableSkillsIcon src={ReduxLogo} id="redux" name="Redux" />
+          <ClickableSkillsIcon
+            src={ReduxLogo}
+            id="redux"
+            name="Jetpack Compose"
+            learning
+          />
         </div>
       </div>
     </>

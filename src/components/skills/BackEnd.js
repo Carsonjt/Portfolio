@@ -3,6 +3,7 @@ import MicroservicesLogo from "../../static/img/skills/Microservices.png";
 import RestAPILogo from "../../static/img/skills/RestAPI.png";
 import AuthenticationLogo from "../../static/img/skills/Authentication.png";
 import EventStreamingLogo from "../../static/img/skills/EventStreaming.png";
+import AndroidLogo from "../../static/img/skills/Android.png";
 import ClickableSkillsIcon from "../ClickableSkillsIcon";
 
 export default function BackEnd() {
@@ -35,8 +36,14 @@ export default function BackEnd() {
           />
           <ClickableSkillsIcon
             src={EventStreamingLogo}
-            id="rabbitmq"
-            name="RabbitMQ"
+            id="event-streaming"
+            name="Event Streaming"
+          />
+          <ClickableSkillsIcon
+            src={AndroidLogo}
+            id="android"
+            name="Android Development"
+            learning
           />
         </div>
       </div>
