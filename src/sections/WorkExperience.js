@@ -9,7 +9,7 @@ export default function WorkExperience() {
         <p className="mb-3 text-4xl font-semibold text-center ">
           Work Experience
         </p>
-        <div className="flex">
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
           <CertispecCard />
           <FISPANCard />
           <NRCanCard />

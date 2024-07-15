@@ -1,12 +1,13 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import Modal from "../generic/Popup";
+import Modal from "./Modal";
 
 export default function ClickableIcon({ name, id, src }) {
   const [showModal, setShowModal] = useState(false);
 
   const handleOpenModal = () => setShowModal(true);
   const handleCloseModal = () => setShowModal(false);
+
   return (
     <div>
       <Modal show={showModal} onClose={handleCloseModal}>

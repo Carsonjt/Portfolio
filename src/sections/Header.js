@@ -17,7 +17,7 @@ export default function Header() {
           <div className="lg:flex tracking-tight">
             <div className="items-center pr-10 font-bold leading-7 text-3xl">
               <span className="text-black">{"{ "}</span>
-              <span className="text-indigo-400">Portfolio Website</span>
+              <span className="text-indigo-400">Portfolio V2</span>
               <span className="text-black">{" }"}</span>
             </div>
 

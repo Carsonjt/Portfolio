@@ -9,8 +9,14 @@ export default function Skills() {
         <p className="mb-3 text-4xl font-semibold text-center">
           Skills & Technologies
         </p>
-        <p className="mb-3 text-lg">
-          This is a description for my skills & technologies
+        <p className="md:mx-5 lg:mx-10 mb-5 text-lg">
+          Proficient in web development with expertise in NextJS and Postgres,
+          having led the design and creation of an internal employee training
+          portal. Experienced in automation using PowerShell for streamlined
+          onboarding and offboarding processes. Skilled in website redesign,
+          demonstrated by overhauling a 50-page official website, and adept in
+          implementing CI/CD changes for Azure services to enhance development
+          workflows. <b>Click to learn</b>
         </p>
         <div className="flex justify-around">
           <FrontEnd />

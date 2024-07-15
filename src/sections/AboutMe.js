@@ -13,7 +13,7 @@ export default function AboutMe() {
           </p>
           <p className="text-lg font-mono">
             I{"'"}m a passionate software developer interested in pursuing
-            opportunities in the US. I have been coding for over 6 years, with
+            opportunities in the US. I have been coding for over 10 years, with
             2+ years of professional experience within the financial and oil and
             gas industries. I have experience working in both front-end and
             back-end technologies, though I have a preference for backend work.
