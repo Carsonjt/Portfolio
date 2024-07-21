@@ -11,7 +11,14 @@ export default function ClickableIcon({ name, id, src, learning }) {
   return (
     <div>
       <Modal show={showModal} onClose={handleCloseModal}>
-        <h2 className="text-xl font-bold">This is a Modal for {name}</h2>
+        <h2 className="text-xl font-bold text-center">{name}</h2>
+        <Image
+          alt={name + " logo"}
+          src={src}
+          width={125}
+          className={`mx-auto ${learning ? "grayscale" : ""}`}
+          onClick={handleOpenModal}
+        />
         <p>Some content goes here...</p>
       </Modal>
 

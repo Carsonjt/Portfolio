@@ -1,0 +1,13 @@
+{
+  "section": {
+    "about": {
+      "title": "Hi, I'm Carson,",
+      "subtitle": "a Fullstack Developer 👋",
+      "description": "I'm a passionate software developer interested in pursuing  opportunities in the US. I have been coding for over 10 years, with 2+ years of professional experience within the financial and oil and gas industries. I have experience working in both front-end and back-end technologies, though I have a preference for backend work. Explore my projects, experience and work history to learn more about me!"
+    },
+    "skills": {
+      "title": "Skills & Technologies",
+      "description": "Proficient in web development with expertise in NextJS and Postgres, having led the design and creation of an internal employee training portal. Experienced in automation using PowerShell for streamlined onboarding and offboarding processes. Skilled in website redesign, demonstrated by overhauling a 50-page official website, and adept in implementing CI/CD changes for Azure services to enhance development workflows."
+    }
+  }
+}

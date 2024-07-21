@@ -1,28 +1,22 @@
 import Image from "next/image";
+import lang from "../static/lang.json";
 
 import SoftwareVector from "../static/img/about/SoftwareVector.png";
 
 export default function AboutMe() {
   return (
     <section id="about-me">
-      <div className="bg-sky-100 lg:px-32 md:px-20 px-10 md:py-10 py-5 flex">
-        <div className="w-3/5 inline-block my-auto">
-          <p className="mb-3 text-6xl font-bold">Hi, I{"'"}m Carson,</p>
-          <p className="mb-5 text-5xl font-semibold">
-            a Fullstack Developer 👋
+      <div className="bg-sky-100 lg:px-32 md:px-20 px-10 md:py-10 py-5 flex flex-col-reverse lg:flex-row items-center text-center lg:text-left">
+        <div className="w-full lg:w-3/5 inline-block my-auto">
+          <p className="mb-3 text-5xl lg:text-6xl font-bold">
+            {lang.section.about.title}
           </p>
-          <p className="text-lg font-mono">
-            I{"'"}m a passionate software developer interested in pursuing
-            opportunities in the US. I have been coding for over 10 years, with
-            2+ years of professional experience within the financial and oil and
-            gas industries. I have experience working in both front-end and
-            back-end technologies, though I have a preference for backend work.
-            Explore my projects, experience and work history to learn more about
-            me!
+          <p className="mb-5 text-4xl lg:text-5xl font-semibold">
+            {lang.section.about.subtitle}
           </p>
+          <p className="text-lg font-mono">{lang.section.about.description}</p>
         </div>
-
-        <div className="w-2/5 inline-block">
+        <div className="w-full lg:w-2/5 inline-block">
           <Image
             alt="Software Vector"
             src={SoftwareVector}
