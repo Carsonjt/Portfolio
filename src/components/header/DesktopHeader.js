@@ -8,7 +8,7 @@ export default function DesktopHeader() {
   return (
     <>
       <div className="mx-auto mx-3 lg:mx-5 p-5 text-black-400">
-        <div class="lg:flex lg:items-center lg:justify-between">
+        <div className="lg:flex lg:items-center lg:justify-between">
           {/* LEFT SIDE - NAME, ROLE, LOCATION */}
 
           {/* NAME */}
@@ -20,7 +20,7 @@ export default function DesktopHeader() {
             </div>
           </div>
 
-          <div class="mt-5 flex items-center lg:ml-4 lg:mt-0">
+          <div className="mt-5 flex items-center lg:ml-4 lg:mt-0">
             <Link
               href="#about-me"
               className="font-semibold mx-5 hover:text-green-400 hover:underline"
@@ -39,7 +39,7 @@ export default function DesktopHeader() {
             <Link href="#projects" className="font-semibold mx-5">
               Projects
             </Link>
-            <span class="ml-10 hidden sm:block">
+            <span className="ml-10 hidden sm:block">
               <Link href={"https://www.linkedin.com/in/carsonjtodd/"}>
                 <Image
                   src={linkedin} // Path to your image
@@ -50,7 +50,7 @@ export default function DesktopHeader() {
                 />
               </Link>
             </span>
-            <span class="ml-3 hidden sm:block">
+            <span className="ml-3 hidden sm:block">
               <Link href={"https://github.com/Carsonjt"}>
                 <Image
                   src={github} // Path to your image

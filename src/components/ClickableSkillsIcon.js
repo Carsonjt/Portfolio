@@ -1,8 +1,15 @@
+/* eslint-disable react/jsx-key */
 import Image from "next/image";
 import React, { useState } from "react";
 import Modal from "./Modal";
 
-export default function ClickableIcon({ name, id, src, learning }) {
+export default function ClickableIcon({
+  name,
+  src,
+  description,
+  points,
+  learning,
+}) {
   const [showModal, setShowModal] = useState(false);
 
   const handleOpenModal = () => setShowModal(true);
@@ -16,10 +23,13 @@ export default function ClickableIcon({ name, id, src, learning }) {
           alt={name + " logo"}
           src={src}
           width={125}
+          height={125}
           className={`mx-auto ${learning ? "grayscale" : ""}`}
           onClick={handleOpenModal}
         />
-        <p>Some content goes here...</p>
+        <p className="my-5">{description}</p>
+
+        {Array.isArray(points) && points.map((point) => <p>• {point.text}</p>)}
       </Modal>
 
       <div className="px-5 h-[100px] hover:scale-110 duration-150 relative">
@@ -27,11 +37,12 @@ export default function ClickableIcon({ name, id, src, learning }) {
           alt={name + " logo"}
           src={src}
           width={95}
+          height={95}
           className={`mx-auto ${learning ? "grayscale" : ""}`}
           onClick={handleOpenModal}
         />
         {learning && (
-          <div className="absolute bottom-0 left-6 bg-orange-500 rounded-lg m-2 text-sm px-1 py-0.5 text-white font-mono">
+          <div className="absolute left-0 bottom-0 bg-orange-500 rounded-lg m-2 text-sm px-1 py-0.5 text-white font-mono">
             LEARNING
           </div>
         )}

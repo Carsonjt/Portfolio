@@ -1,5 +1,6 @@
+import lang from "@/static/lang.json";
+
 import Image from "next/image";
-import lang from "../static/lang.json";
 
 import SoftwareVector from "../static/img/about/SoftwareVector.png";
 

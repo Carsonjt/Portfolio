@@ -1,4 +1,4 @@
-import lang from "../static/lang.json";
+import lang from "@/static/lang.json";
 
 import FrontEnd from "@/components/skills/FrontEnd";
 import BackEnd from "@/components/skills/BackEnd";

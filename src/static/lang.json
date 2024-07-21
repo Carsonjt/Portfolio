@@ -5,9 +5,101 @@
       "subtitle": "a Fullstack Developer 👋",
       "description": "I'm a passionate software developer interested in pursuing  opportunities in the US. I have been coding for over 10 years, with 2+ years of professional experience within the financial and oil and gas industries. I have experience working in both front-end and back-end technologies, though I have a preference for backend work. Explore my projects, experience and work history to learn more about me!"
     },
+
     "skills": {
       "title": "Skills & Technologies",
-      "description": "Proficient in web development with expertise in NextJS and Postgres, having led the design and creation of an internal employee training portal. Experienced in automation using PowerShell for streamlined onboarding and offboarding processes. Skilled in website redesign, demonstrated by overhauling a 50-page official website, and adept in implementing CI/CD changes for Azure services to enhance development workflows."
+      "description": "Proficient in web development with expertise in NextJS and Postgres, having led the design and creation of an internal employee training portal. Experienced in automation using PowerShell for streamlined onboarding and offboarding processes. Skilled in website redesign, demonstrated by overhauling a 50-page official website, and adept in implementing CI/CD changes for Azure services to enhance development workflows.",
+
+      "frontend": {
+        "title": "Front-End Skills",
+        "icons": [
+          {
+            "id": "basics",
+            "name": "Basics",
+            "description": "I know the basics of front-end development such as HTML, CSS, and JavaScript",
+            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+          },
+          {
+            "id": "react",
+            "name": "React",
+            "description": "Test2",
+            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+          },
+          {
+            "id": "redux",
+            "name": "Redux",
+            "description": "Test3",
+            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+          }
+        ]
+      },
+
+      "backend": {
+        "title": "Back-End Skills",
+        "icons": [
+          {
+            "id": "languages",
+            "name": "Languages",
+            "description": "I know the basics of front-end development such as HTML, CSS, and JavaScript",
+            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+          },
+          {
+            "id": "restapis",
+            "name": "REST APIs",
+            "description": "Test2",
+            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+          },
+          {
+            "id": "authentication",
+            "name": "Authentication",
+            "description": "Test3",
+            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+          },
+          {
+            "id": "microservices",
+            "name": "Microservices",
+            "description": "Testtt",
+            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+          },
+          {
+            "id": "eventstreaming",
+            "name": "Event Streaming",
+            "description": "Test2",
+            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+          },
+          {
+            "id": "androiddevelopment",
+            "name": "Android Development",
+            "description": "Test3",
+            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }],
+            "learning": true
+          }
+        ]
+      },
+
+      "devops": {
+        "title": "DevOps Skills",
+        "icons": [
+          {
+            "id": "microservices",
+            "name": "Microservices",
+            "description": "I know the basics of front-end development such as HTML, CSS, and JavaScript",
+            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+          },
+          {
+            "id": "eventstreaming",
+            "name": "Event Streaming",
+            "description": "Test2",
+            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+          },
+          {
+            "id": "androiddevelopment",
+            "name": "Android Development",
+            "description": "Test3",
+            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+          }
+        ]
+      }
     }
   }
 }

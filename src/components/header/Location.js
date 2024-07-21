@@ -1,8 +1,8 @@
 export default function Location() {
   return (
-    <div class="mt-2 flex items-center text-sm">
+    <div className="mt-2 flex items-center text-sm">
       <svg
-        class="mr-1.5 h-5 w-5 flex-shrink-0 "
+        className="mr-1.5 h-5 w-5 flex-shrink-0 "
         viewBox="0 0 20 20"
         fill="currentColor"
         aria-hidden="true"
