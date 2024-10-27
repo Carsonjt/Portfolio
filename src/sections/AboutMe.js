@@ -6,7 +6,7 @@ import SoftwareVector from "../static/img/about/SoftwareVector.png";
 
 export default function AboutMe() {
   return (
-    <section id="about-me">
+    <section id="about">
       <div className="bg-sky-100 lg:px-32 md:px-20 px-10 md:py-10 py-5 flex flex-col-reverse lg:flex-row items-center text-center lg:text-left">
         <div className="w-full lg:w-3/5 inline-block my-auto">
           <p className="mb-3 text-5xl lg:text-6xl font-bold">

@@ -4,7 +4,7 @@ import ReduxLogo from "../../static/img/skills/Redux.png";
 import BasicsLogo from "../../static/img/skills/Basics.jpg";
 import ReactLogo from "../../static/img/skills/React.png";
 
-import ClickableSkillsIcon from "../ClickableSkillsIcon";
+import ClickableSkillsIcon from "./ClickableSkillsIcon";
 
 const iconMap = {
   basics: BasicsLogo,
@@ -28,6 +28,7 @@ export default function FrontEnd() {
                 src={iconMap[icon.id]}
                 name={icon.name}
                 description={icon.description}
+                pointTitle={icon.pointTitle}
                 points={icon.points}
               />
             ))}

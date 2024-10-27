@@ -6,10 +6,10 @@ import RestAPILogo from "../../static/img/skills/RestAPI.png";
 import AuthenticationLogo from "../../static/img/skills/Authentication.png";
 import EventStreamingLogo from "../../static/img/skills/EventStreaming.png";
 import AndroidLogo from "../../static/img/skills/Android.png";
-import ClickableSkillsIcon from "../ClickableSkillsIcon";
+import ClickableSkillsIcon from "./ClickableSkillsIcon";
 
 const iconMap = {
-  languages: KotlinLogo,
+  fundamentals: KotlinLogo,
   microservices: MicroservicesLogo,
   restapis: RestAPILogo,
   authentication: AuthenticationLogo,
@@ -33,6 +33,7 @@ export default function BackEnd() {
                 src={iconMap[icon.id]}
                 name={icon.name}
                 description={icon.description}
+                pointTitle={icon.pointTitle}
                 points={icon.points}
                 learning={icon.learning}
               />

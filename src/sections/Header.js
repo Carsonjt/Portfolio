@@ -5,7 +5,7 @@ import DesktopHeader from "@/components/header/DesktopHeader";
 
 export default function Header() {
   return (
-    <section id="header ">
+    <section id="header">
       {/* BIG SCREEN */}
       <div className="invisible h-0 lg:visible lg:h-fit ">
         <DesktopHeader />

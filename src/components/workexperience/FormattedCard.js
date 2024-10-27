@@ -10,44 +10,40 @@ export default function FormattedCard({
   children,
 }) {
   return (
-    <>
-      <div
-        className="bg-white border border-2 p-3 rounded border-blue-400 min-h-[500px] flex flex-col justify-between"
-        onClick={flipCard}
-      >
-        <div className="flex justify-between items-center h-10">
-          <div className="flex items-center">
-            <Image
-              src={logo} // Path to your image
-              alt={company + " Logo"}
-              width={50} // Desired width of the image
-              height={50} // Desired height of the image
-              className="mr-2"
-            />
-            <p>{company}</p>
-          </div>
-          <p>{time}</p>
+    <div
+      className="relative bg-white border border-blue-500 shadow-lg p-6 rounded-lg hover:shadow-xl min-h-[500px] flex flex-col justify-between transition-shadow duration-300 cursor-pointer"
+      onClick={flipCard}
+    >
+      <div className="flex justify-between items-center">
+        <div className="flex items-center">
+          <Image
+            src={logo}
+            alt={company + " Logo"}
+            width={50}
+            height={50}
+            className="mr-3 rounded-full"
+          />
+          <p className="text-lg font-bold text-gray-800">{company}</p>
         </div>
-
-        <div className="flex-grow">
-          <div className="mx-5">
-            <p className="text-xl my-4">{title}</p>
-            {children}
-          </div>
-        </div>
-
-        {isFront && (
-          <div className="mx-5 bg-indigo-100 border border-gray-300 rounded p-3 w-full text-center mx-auto">
-            <p> 🌐 Click for more information!</p>
-          </div>
-        )}
-
-        {!isFront && (
-          <div className="mx-5 bg-indigo-100 border border-gray-300 rounded p-3 w-72 text-center mx-auto">
-            <p> ⬅ Click again to go back</p>
-          </div>
-        )}
+        <p className="text-sm text-gray-600">{time}</p>
       </div>
-    </>
+
+      <div className="flex-grow mt-4">
+        <p className="text-xl font-semibold text-gray-900">
+          {isFront && title}
+        </p>
+        <div className="mt-3 text-gray-700">{children}</div>
+      </div>
+
+      {isFront ? (
+        <div className="mt-6 bg-blue-100 border-t border-blue-300 py-2 text-center">
+          <p>🌐 Click for more technical details</p>
+        </div>
+      ) : (
+        <div className="mt-6 bg-blue-100 border-t border-blue-300 py-2 text-center">
+          <p>⬅ Click again to go back</p>
+        </div>
+      )}
+    </div>
   );
 }

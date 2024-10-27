@@ -1,102 +1,257 @@
 {
   "section": {
+    "header": {
+      "links": [
+        { "name": "About", "link": "#about" },
+        { "name": "Skills", "link": "#skills" },
+        { "name": "Experience", "link": "#experience" },
+        { "name": "Education", "link": "#education" }
+      ]
+    },
     "about": {
       "title": "Hi, I'm Carson,",
       "subtitle": "a Fullstack Developer 👋",
       "description": "I'm a passionate software developer interested in pursuing  opportunities in the US. I have been coding for over 10 years, with 2+ years of professional experience within the financial and oil and gas industries. I have experience working in both front-end and back-end technologies, though I have a preference for backend work. Explore my projects, experience and work history to learn more about me!"
     },
-
+    "education": {
+      "title": "Education",
+      "description": "I attended the University of Victoria, where I pursued a degree in Computer Science. This rigorous program provided me with a solid foundation in both theoretical and practical aspects of computing. The curriculum covered a wide range of topics, including algorithms, data structures, software engineering, database systems, artificial intelligence, and software testing. This comprehensive education equipped me with the necessary skills to tackle complex technical challenges and develop effective solutions to problems."
+    },
     "skills": {
       "title": "Skills & Technologies",
       "description": "Proficient in web development with expertise in NextJS and Postgres, having led the design and creation of an internal employee training portal. Experienced in automation using PowerShell for streamlined onboarding and offboarding processes. Skilled in website redesign, demonstrated by overhauling a 50-page official website, and adept in implementing CI/CD changes for Azure services to enhance development workflows.",
-
       "frontend": {
         "title": "Front-End Skills",
         "icons": [
           {
             "id": "basics",
             "name": "Basics",
-            "description": "I know the basics of front-end development such as HTML, CSS, and JavaScript",
-            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+            "description": "Understanding the basics of web development, including CSS, HTML, and JavaScript, is essential for creating functional and visually appealing websites. Using these fundamentals, I can confidently turn sketches and ideas into reality! I am always trying to improve and have recently been experimenting with incorporating animations and dynamic design into my work.",
+            "pointTitle": "Here are some examples of the fundamentals I use:",
+            "points": [
+              {
+                "text": "Structuring pages with HTML5, incorporating page structuring sections like headings, footers, navigation, and more."
+              },
+              {
+                "text": "Designing visually appealing styles with CSS, particularly with CSS frameworks such as TailwindCSS."
+              },
+              {
+                "text": "Powering web content with JavaScript features such as DOM manipulation, lambda functions, data manipulation, and more."
+              },
+              {
+                "text": "Creating responsive web design ensuring a good user experience across all types of devices."
+              },
+              {
+                "text": "Utilizing component design libraries such as Ant Design and Material UI."
+              }
+            ]
           },
           {
             "id": "react",
             "name": "React",
-            "description": "Test2",
-            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+            "description": "In my opinion, React is an absolute must for modern web development. It is a game-changer in terms of both development speed and quality when designing and creating websites and SPAs. My past experiences working at FISPAN really demonstrated to me the value of its vast libraries, reusable component architecture, and simplicity working with JSX. It is now my go-to for any new projects.",
+            "pointTitle": "Here are some of my accomplishments with React & NextJS:",
+            "points": [
+              {
+                "text": "Developed and maintained an internal employee training portal using NextJS and Postgres."
+              },
+              {
+                "text": "Implemented dynamic data fetching and server-side rendering with NextJS to improve performance and SEO."
+              },
+              {
+                "text": "Created reusable components to streamline development and ensure consistency across the application."
+              }
+            ]
           },
           {
             "id": "redux",
             "name": "Redux",
-            "description": "Test3",
-            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+            "description": "One of the most important concepts for effective and scalable web development is state management. Methods such as prop-drilling can be effective, but can quickly become impossible to maintain with a growing project. Centralized state management with tools like Redux is so important for maintaining a clean and effective web app.",
+            "pointTitle": "Here are some of my favourite parts about working with Redux:",
+            "points": [
+              {
+                "text": "Eliminate excessive prop-drilling when needing to pass a state through many levels of components."
+              },
+              {
+                "text": "Access states across different parts of your application."
+              },
+              {
+                "text": "Handle application state logic through dispatch handling."
+              },
+              {
+                "text": "Redux DevTools Extension for effective debugging."
+              }
+            ]
           }
         ]
       },
-
       "backend": {
         "title": "Back-End Skills",
         "icons": [
           {
-            "id": "languages",
-            "name": "Languages",
-            "description": "I know the basics of front-end development such as HTML, CSS, and JavaScript",
-            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+            "id": "fundamentals",
+            "name": "Fundamentals",
+            "description": "Back-end development was my gateway to programming and what I consider my greatest strength. I started programming in Java when I was 13 years old, making plugins for Minecraft. Over the years, I've had the opportunity to work with a variety of languages, using each of them to implement different concepts, data structures, and algorithms in my projects. My experience spans developing web applications, automating processes, and building scalable back-end systems.",
+            "pointTitle": "These are some of the languages and programming concepts I excel in:",
+            "points": [
+              {
+                "text": "High-level programming languages such as Java, Kotlin, Node.js, and Python."
+              },
+              {
+                "text": "OOP concepts and designs such as inheritance, abstraction, and polymorphism."
+              },
+              {
+                "text": "Crucial data structures like linked lists, stacks, queues, hashmaps, trees, and graphs, used in real-world scenarios to optimize performance and storage."
+              },
+              {
+                "text": "Implementation of algorithms such as DFS, BFS, Dijkstra's, binary search, sorting algorithms, and more, to solve complex problems efficiently."
+              }
+            ]
           },
           {
             "id": "restapis",
             "name": "REST APIs",
-            "description": "Test2",
-            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+            "description": "Developing RESTful APIs has been a core part of my backend development experience. REST APIs are essential for enabling communication between the client and server, and I have implemented them in various projects to ensure smooth and efficient data exchange.",
+            "pointTitle": "Some of my key experiences with REST APIs include:",
+            "points": [
+              {
+                "text": "Designing and implementing RESTful endpoints for CRUD operations."
+              },
+              {
+                "text": "Ensuring secure and efficient data transfer using authentication and authorization mechanisms."
+              },
+              {
+                "text": "Documenting APIs using tools like Swagger for easy integration and collaboration."
+              }
+            ]
           },
           {
             "id": "authentication",
             "name": "Authentication",
-            "description": "Test3",
-            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+            "description": "Implementing authentication and authorization is crucial for securing web applications. Starting my development journey in the fintech industry taught me extensive knowledge in utilizing authentication, key vaults and good development practices ensuring confidential information is protected.",
+            "pointTitle": "Here are some authentication techniques I have used:",
+            "points": [
+              {
+                "text": "Implementing JWT (JSON Web Tokens) for secure user authentication."
+              },
+              {
+                "text": "Using OAuth2.0 for third-party authentication and authorization."
+              },
+              {
+                "text": "Integrating multi-factor authentication (MFA) to enhance security."
+              }
+            ]
           },
           {
             "id": "microservices",
             "name": "Microservices",
-            "description": "Testtt",
-            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+            "description": "Microservices architecture allows for building scalable and maintainable applications by dividing them into smaller, independent services. I have experience in designing and implementing microservices to enhance the performance and scalability of applications.",
+            "pointTitle": "Key aspects of my experience with microservices include:",
+            "points": [
+              {
+                "text": "Designing microservices to handle specific business functions independently."
+              },
+              {
+                "text": "Implementing inter-service communication using REST APIs and message brokers."
+              },
+              {
+                "text": "Ensuring fault tolerance and scalability through containerization and orchestration tools like Docker and Kubernetes."
+              }
+            ]
           },
           {
             "id": "eventstreaming",
             "name": "Event Streaming",
-            "description": "Test2",
-            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+            "description": "Event streaming is crucial for real-time data processing and analytics. During my time at FISPAN, I had the opportunity to work with RabbitMQ on their back-end microservices for both logging and event-driven asyncronous data flows while building robust and scalable systems.",
+            "pointTitle": "My knowledge with event streaming includes:",
+            "points": [
+              {
+                "text": "Using RabbitMQ for real-time data streaming and processing of events within microservices architecture."
+              },
+              {
+                "text": "Implementing event-driven architectures such as event-bus to handle asynchronous data flows of events from a variety of other sources."
+              },
+              {
+                "text": "Design and implement RabbitMQ within new Kotlin Ktor microservice for logging purposes."
+              }
+            ]
           },
           {
             "id": "androiddevelopment",
             "name": "Android Development",
-            "description": "Test3",
-            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }],
+            "description": "Android development is an area I am actively learning and growing in. I have experience with building Android applications using modern frameworks and tools.",
+            "pointTitle": "Some key aspects of my Android development experience are:",
+            "points": [
+              {
+                "text": "Building Android applications using Jetpack Compose for a modern UI."
+              },
+              {
+                "text": "Integrating Room database for efficient local data storage and retrieval."
+              },
+              {
+                "text": "Implementing MVVM architecture for a scalable and maintainable codebase."
+              }
+            ],
             "learning": true
           }
         ]
       },
-
       "devops": {
         "title": "DevOps Skills",
         "icons": [
           {
-            "id": "microservices",
-            "name": "Microservices",
-            "description": "I know the basics of front-end development such as HTML, CSS, and JavaScript",
-            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+            "id": "cicd",
+            "name": "CI/CD",
+            "description": "Continuous Integration and Continuous Deployment (CI/CD) are crucial for modern software development. I have experience in setting up and maintaining CI/CD pipelines to ensure efficient and reliable software delivery.",
+            "pointTitle": "Here are some highlights of my CI/CD experience:",
+            "points": [
+              {
+                "text": "Setting up automated build and deployment pipelines using tools like Jenkins and GitHub Actions."
+              },
+              {
+                "text": "Implementing automated testing to ensure code quality and reliability."
+              },
+              {
+                "text": "Using infrastructure as code (IaC) tools like Terraform to manage and provision cloud resources."
+              }
+            ]
           },
           {
-            "id": "eventstreaming",
-            "name": "Event Streaming",
-            "description": "Test2",
-            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+            "id": "containerization",
+            "name": "Containerization",
+            "description": "Containerization is essential for creating scalable and portable applications. I have extensive experience with containerization tools to streamline development and deployment processes.",
+            "pointTitle": "Some key aspects of my containerization experience include:",
+            "points": [
+              {
+                "text": "Creating and managing Docker containers for application isolation and consistency."
+              },
+              {
+                "text": "Using Docker Compose for multi-container applications and orchestration."
+              },
+              {
+                "text": "Implementing Kubernetes for container orchestration and management at scale."
+              }
+            ]
           },
           {
-            "id": "androiddevelopment",
-            "name": "Android Development",
-            "description": "Test3",
-            "points": [{ "text": "1" }, { "text": "2" }, { "text": "3" }]
+            "id": "azure",
+            "name": "Azure",
+            "description": "Azure provides a comprehensive set of cloud services that I have leveraged to build, deploy, and manage applications efficiently. My experience with Azure includes working on various services to ensure robust and scalable solutions.",
+            "pointTitle": "Here are some highlights of my experience with Azure:",
+            "points": [
+              {
+                "text": "Implementing and managing Azure DevOps for CI/CD pipelines and version control."
+              },
+              {
+                "text": "Deploying applications using Azure App Services and Azure Functions for serverless computing."
+              },
+              {
+                "text": "Using Azure SQL Database and Cosmos DB for scalable and reliable data storage solutions."
+              },
+              {
+                "text": "Setting up and managing Azure Kubernetes Service (AKS) for container orchestration."
+              }
+            ]
           }
         ]
       }
