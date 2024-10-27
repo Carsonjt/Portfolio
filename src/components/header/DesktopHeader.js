@@ -27,6 +27,7 @@ export default function DesktopHeader() {
               <Link
                 href={item.link}
                 className="font-semibold mx-5 hover:text-green-400 hover:underline"
+                key={item.name}
               >
                 {item.name}
               </Link>
