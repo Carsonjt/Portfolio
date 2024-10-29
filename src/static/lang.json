@@ -56,7 +56,7 @@
                 "text": "Developed and maintained an internal employee training portal using NextJS and Postgres."
               },
               {
-                "text": "Implemented dynamic data fetching and server-side rendering with NextJS to improve performance and SEO."
+                "text": "Implemented dynamic data fetching and server-side rendering with NextJS to improve performance"
               },
               {
                 "text": "Created reusable components to streamline development and ensure consistency across the application."
@@ -101,10 +101,10 @@
                 "text": "OOP concepts and designs such as inheritance, abstraction, and polymorphism."
               },
               {
-                "text": "Crucial data structures like linked lists, stacks, queues, hashmaps, trees, and graphs, used in real-world scenarios to optimize performance and storage."
+                "text": "Standard data structures like linked lists, stacks, queues, hashmaps, trees, and graphs, to optimize performance and storage."
               },
               {
-                "text": "Implementation of algorithms such as DFS, BFS, Dijkstra's, binary search, sorting algorithms, and more, to solve complex problems efficiently."
+                "text": "Implementation of algorithms such as DFS, BFS, binary search, sorting algorithms, and more, to solve complex problems efficiently."
               }
             ]
           },
@@ -121,7 +121,10 @@
                 "text": "Ensuring secure and efficient data transfer using authentication and authorization mechanisms."
               },
               {
-                "text": "Documenting APIs using tools like Swagger for easy integration and collaboration."
+                "text": "Improving querying and back-end logic to optimize endpoints."
+              },
+              {
+                "text": "Thorough handling of error management (e.g appropriate status codes)"
               }
             ]
           },
@@ -138,7 +141,7 @@
                 "text": "Using OAuth2.0 for third-party authentication and authorization."
               },
               {
-                "text": "Integrating multi-factor authentication (MFA) to enhance security."
+                "text": "Utilizing role-based access (RBA) for website features and pages."
               }
             ]
           },
@@ -172,7 +175,7 @@
                 "text": "Implementing event-driven architectures such as event-bus to handle asynchronous data flows of events from a variety of other sources."
               },
               {
-                "text": "Design and implement RabbitMQ within new Kotlin Ktor microservice for logging purposes."
+                "text": "Implement RabbitMQ within new Kotlin Ktor microservice for logging purposes."
               }
             ]
           },
@@ -189,7 +192,10 @@
                 "text": "Integrating Room database for efficient local data storage and retrieval."
               },
               {
-                "text": "Implementing MVVM architecture for a scalable and maintainable codebase."
+                "text": "Using hilt for dependency and view model injection."
+              },
+              {
+                "text": "Implementing Unidirectional Data Flow (UDF) architecture with for a stable and testable app."
               }
             ],
             "learning": true
@@ -210,46 +216,43 @@
               },
               {
                 "text": "Implementing automated testing to ensure code quality and reliability."
-              },
-              {
-                "text": "Using infrastructure as code (IaC) tools like Terraform to manage and provision cloud resources."
               }
             ]
           },
           {
-            "id": "containerization",
-            "name": "Containerization",
-            "description": "Containerization is essential for creating scalable and portable applications. I have extensive experience with containerization tools to streamline development and deployment processes.",
-            "pointTitle": "Some key aspects of my containerization experience include:",
+            "id": "versioncontrol",
+            "name": "Version Control",
+            "description": "Version Control is a staple of software development. It allows you to track and manage updates, rollback changes and collaborate with others.",
+            "pointTitle": "Here are some highlights of my version control knowledge:",
             "points": [
               {
-                "text": "Creating and managing Docker containers for application isolation and consistency."
+                "text": "Fundamentals of managing branches and repositories (e.g. cloning repos, push/pulls, merges, etc...)"
               },
               {
-                "text": "Using Docker Compose for multi-container applications and orchestration."
+                "text": "Performing and receiving code reviews of merge requests"
               },
               {
-                "text": "Implementing Kubernetes for container orchestration and management at scale."
+                "text": "Aheading to security best practices such as utilizing env files to store sensitive information."
               }
             ]
           },
           {
             "id": "azure",
             "name": "Azure",
-            "description": "Azure provides a comprehensive set of cloud services that I have leveraged to build, deploy, and manage applications efficiently. My experience with Azure includes working on various services to ensure robust and scalable solutions.",
+            "description": "Azure provides a comprehensive set of cloud services that I have leveraged to build, deploy, and manage applications efficiently. My experience with Azure includes working on various services to ensure reliability and effectiveness",
             "pointTitle": "Here are some highlights of my experience with Azure:",
             "points": [
               {
-                "text": "Implementing and managing Azure DevOps for CI/CD pipelines and version control."
+                "text": "Configuring and deploying applications using Azure App Services and Azure Functions for serverless computing."
               },
               {
-                "text": "Deploying applications using Azure App Services and Azure Functions for serverless computing."
+                "text": "Using Azure Postgres Databases for reliable data storage solutions."
               },
               {
-                "text": "Using Azure SQL Database and Cosmos DB for scalable and reliable data storage solutions."
+                "text": "Creating Logic Apps and Runbooks to automate a variety of aspects of business operations."
               },
               {
-                "text": "Setting up and managing Azure Kubernetes Service (AKS) for container orchestration."
+                "text": "Managing mobile devices with Intune for remote deployment and updates of developed software."
               }
             ]
           }

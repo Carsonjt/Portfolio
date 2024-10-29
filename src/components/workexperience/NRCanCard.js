@@ -1,11 +1,11 @@
 import { Typography } from "@mui/material";
-import logo from "../../static/img/nrcan.png";
+import logo from "../../static/img/nrcan.jpg";
 import FormattedCard from "./FormattedCard";
 import ReactCardFlip from "react-card-flip";
 import React from "react";
 
 export default function NRCan() {
-  const company = "Natural Resources Canada";
+  const company = "Government of Canada";
   const time = "01/2021 - 08/2021";
   const title = "Software Developer Intern";
 
@@ -25,7 +25,7 @@ export default function NRCan() {
           title={title}
           flipCard={flipCard}
         >
-          <p className="mt-5 text-md font-light">
+          <p className="mt-5 text-lg font-light">
             Assigned responsibility for overhaul of internal web-app for
             downloading federal and jurisdiction data relating to forestry data
             tracking and management. Data includes image, metadata, CSV and

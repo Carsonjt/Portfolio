@@ -6,9 +6,30 @@ import CICDLogo from "../../static/img/skills/CICD.png";
 import DockerLogo from "../../static/img/skills/Docker.png";
 import ClickableSkillsIcon from "./ClickableSkillsIcon";
 
+/* COPY OF JSON FOR CONTAINEIZATION FOR IF READDING
+{
+            "id": "containerization",
+            "name": "Containerization",
+            "description": "Containerization is essential for creating scalable and portable applications. I have extensive experience with containerization tools to streamline development and deployment processes.",
+            "pointTitle": "Some key aspects of my containerization experience include:",
+            "points": [
+              {
+                "text": "Creating and managing Docker containers for application isolation and consistency."
+              },
+              {
+                "text": "Using Docker Compose for multi-container applications and orchestration."
+              },
+              {
+                "text": "Implementing Kubernetes for container orchestration and management at scale."
+              }
+            ]
+          },
+          */
+
 const iconMap = {
   cicd: CICDLogo,
   containerization: DockerLogo,
+  versioncontrol: VersionControlLogo,
   azure: AzureLogo,
 };
 

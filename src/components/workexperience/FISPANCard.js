@@ -9,7 +9,7 @@ import React from "react";
 export default function CertispecCard() {
   const company = "FI.SPAN";
   const time = "08/2022 - 10/2023";
-  const title = "Software Developer";
+  const title = "Software Developer Intern > Full Time";
 
   const [isFlipped, setIsFlipped] = React.useState(false);
 
@@ -27,7 +27,7 @@ export default function CertispecCard() {
           title={title}
           flipCard={flipCard}
         >
-          <p className="mt-5 text-md font-light">
+          <p className="mt-5 text-lg font-light">
             Worked on integrations team, using Kotlin for extensive backend REST
             API development, with a heavy focus on asynchronous data handling
             and endpoint security. Focused primarily on businesses core
